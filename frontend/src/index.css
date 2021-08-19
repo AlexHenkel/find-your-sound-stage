@@ -1,0 +1,55 @@
+:root {
+  --white: #f5f5f1;
+  --accent: #e50914;
+  --black: #221f1f;
+  --shadow: #dedede;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fbfbfb;
+}
+
+hr {
+  border-color: #fff7;
+}
+
+/* Override of Blueprint styles directly from class selectors, to make them global */
+
+/* FORM STYLES */
+.bp3-form-group {
+  margin: 0;
+}
+
+.bp3-input-group .bp3-input {
+  width: auto;
+}
+
+.bp3-input-group input {
+  border-radius: 14px;
+  box-shadow: 0px 0px 18px 1px var(--shadow);
+}
+
+/* PRIMARY BUTTON */
+.bp3-button.bp3-intent-primary {
+  border-radius: 14px;
+  padding: 5px 20px;
+  background-color: var(--accent);
+  color: var(--white);
+  font-weight: 700;
+  box-shadow: 0px 0px 18px 1px var(--shadow);
+  width: 166px;
+  max-width: 100%;
+}
+
+.bp3-button.bp3-intent-primary:hover,
+.bp3-button.bp3-intent-primary:active,
+.bp3-button.bp3-intent-primary.bp3-active {
+  background-color: var(--accent);
+  color: var(--white);
+}

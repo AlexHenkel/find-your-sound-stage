@@ -1,0 +1,36 @@
+.inputContainer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  margin: 0 auto;
+  width: 200px;
+}
+
+@media screen and (min-width: 560px) {
+  .inputContainer {
+    width: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1060px) {
+  .inputContainer {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+.search {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.clear button {
+  border: none;
+  background-color: transparent;
+  text-align: left;
+  margin-bottom: 5px;
+  color: #969696;
+  cursor: pointer;
+  display: inline-block;
+}

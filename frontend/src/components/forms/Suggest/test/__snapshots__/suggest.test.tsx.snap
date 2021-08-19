@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Suggest /> Query arbitrary value returns correct list 1`] = `
+Array [
+  Object {
+    "label": "AL",
+    "value": "Alabama",
+  },
+  Object {
+    "label": "AS",
+    "value": "American Samoa",
+  },
+  Object {
+    "label": "GU",
+    "value": "Guam",
+  },
+  Object {
+    "label": "NH",
+    "value": "New Hampshire",
+  },
+]
+`;
+
+exports[`<Suggest /> Query exact match of label returns correct list 1`] = `
+Array [
+  Object {
+    "label": "AL",
+    "value": "Alabama",
+  },
+]
+`;
+
+exports[`<Suggest /> Query exact match of value returns correct list 1`] = `
+Array [
+  Object {
+    "label": "AL",
+    "value": "Alabama",
+  },
+]
+`;

@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Empty results with wrong filter 1`] = `Array []`;
+
+exports[`Filter stages correctly with city and state filters 1`] = `
+Array [
+  Object {
+    "city": "Los Angeles",
+    "country": "United States of America",
+    "id": 1,
+    "sound_stages": Array [
+      Object {
+        "available_dates": Array [
+          Object {
+            "end_date": "2020-03-15",
+            "id": 111,
+            "start_date": "2020-01-20",
+          },
+          Object {
+            "end_date": null,
+            "id": 112,
+            "start_date": "2020-05-01",
+          },
+        ],
+        "stage_id": 1,
+        "stage_number": "1A",
+      },
+      Object {
+        "available_dates": Array [
+          Object {
+            "end_date": "2020-07-10",
+            "id": 113,
+            "start_date": "2020-02-08",
+          },
+          Object {
+            "end_date": null,
+            "id": 114,
+            "start_date": "2021-01-01",
+          },
+        ],
+        "stage_id": 2,
+        "stage_number": "1B",
+      },
+    ],
+    "state": "California",
+    "studio_name": "Sunset Bronson",
+  },
+]
+`;
+
+exports[`Filter stages correctly with city filter 1`] = `
+Array [
+  Object {
+    "city": "Los Angeles",
+    "country": "United States of America",
+    "id": 1,
+    "sound_stages": Array [
+      Object {
+        "available_dates": Array [
+          Object {
+            "end_date": "2020-03-15",
+            "id": 111,
+            "start_date": "2020-01-20",
+          },
+          Object {
+            "end_date": null,
+            "id": 112,
+            "start_date": "2020-05-01",
+          },
+        ],
+        "stage_id": 1,
+        "stage_number": "1A",
+      },
+      Object {
+        "available_dates": Array [
+          Object {
+            "end_date": "2020-07-10",
+            "id": 113,
+            "start_date": "2020-02-08",
+          },
+          Object {
+            "end_date": null,
+            "id": 114,
+            "start_date": "2021-01-01",
+          },
+        ],
+        "stage_id": 2,
+        "stage_number": "1B",
+      },
+    ],
+    "state": "California",
+    "studio_name": "Sunset Bronson",
+  },
+]
+`;
+
+exports[`Filter stages correctly with city, state and country filters 1`] = `
+Array [
+  Object {
+    "city": "Los Angeles",
+    "country": "United States of America",
+    "id": 1,
+    "sound_stages": Array [
+      Object {
+        "available_dates": Array [
+          Object {
+            "end_date": "2020-03-15",
+            "id": 111,
+            "start_date": "2020-01-20",
+          },
+          Object {
+            "end_date": null,
+            "id": 112,
+            "start_date": "2020-05-01",
+          },
+        ],
+        "stage_id": 1,
+        "stage_number": "1A",
+      },
+      Object {
+        "available_dates": Array [
+          Object {
+            "end_date": "2020-07-10",
+            "id": 113,
+            "start_date": "2020-02-08",
+          },
+          Object {
+            "end_date": null,
+            "id": 114,
+            "start_date": "2021-01-01",
+          },
+        ],
+        "stage_id": 2,
+        "stage_number": "1B",
+      },
+    ],
+    "state": "California",
+    "studio_name": "Sunset Bronson",
+  },
+]
+`;

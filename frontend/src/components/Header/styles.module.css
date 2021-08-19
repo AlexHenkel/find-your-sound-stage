@@ -1,0 +1,9 @@
+.container {
+  text-align: center;
+  padding: 40px 0;
+  background-color: var(--black);
+}
+
+h1.title {
+  color: var(--white);
+}

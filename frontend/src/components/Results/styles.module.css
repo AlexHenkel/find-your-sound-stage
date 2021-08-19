@@ -1,0 +1,11 @@
+.results {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+@media screen and (min-width: 560px) {
+  .results {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
+}

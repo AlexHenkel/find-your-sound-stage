@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Results /> Render correct results 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h2
+      class="bp3-heading"
+    >
+      Results
+    </h2>
+    <div
+      class="results"
+    >
+      <div
+        class="bp3-card bp3-interactive bp3-elevation-2"
+      >
+        <h3
+          class="bp3-heading"
+        >
+          Sunset Bronson
+           - 
+          1A
+        </h3>
+        <p
+          class="location"
+        >
+          Los Angeles
+          , 
+          California
+          , 
+          United States of America
+        </p>
+      </div>
+      <div
+        class="bp3-card bp3-interactive bp3-elevation-2"
+      >
+        <h3
+          class="bp3-heading"
+        >
+          Screen Gems Studio
+           - 
+          1
+        </h3>
+        <p
+          class="location"
+        >
+          Atlanta
+          , 
+          Georgia
+          , 
+          United States of America
+        </p>
+      </div>
+      <div
+        class="bp3-card bp3-interactive bp3-elevation-2"
+      >
+        <h3
+          class="bp3-heading"
+        >
+          Screen Gems Studio
+           - 
+          1A
+        </h3>
+        <p
+          class="location"
+        >
+          Atlanta
+          , 
+          Georgia
+          , 
+          United States of America
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
